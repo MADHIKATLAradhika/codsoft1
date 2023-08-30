@@ -1,73 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MyPortFolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src='script.js'></script>
+    
 </head>
 <body>
-    <header>
-        <div class="head1">
-        <div class="image">
-           <div class="img1"></div>
-            <div class="img2"></div>
-            <div class="img3"></div>
-            <div class="img4"></div>
-          </div>
-            <div class="content">
-               <p style="color: black; font-size:20px">+6834392421| maddikatlaradhika@gmail.com</p> 
-            </div>
-            <div class="commit" style="border:2px solid orange; border-radius: 20px; color: black;">
-                REQUEST A COMMIT
-            </div>
-
-        </div>
-        <div class="head2">
-           <div class="lpage">
-              <div class="img6"></div>
-              <div class="page">LANDING PAGE</div>
-           </div>
-           <div class="list">
-            <p>Home</p>
-            <p>Blog</p>
-            <p>Pages</p>
-            <p>Services</p>
-            <p>Contact</p>
+      <header>
+        <div class="user">
+            <img src="1.jpg" alt="image not found">
+            <h3 class="name">Radhika Madhikatla</h3>
+            <p class="post">Web Developer</p>
             
-           </div>
-           <div class="buy">Buy Now</div>
-           <div class="search">
-            <input type="text" placeholder="Search Here Guys" class="input">
-             
-             <div class="img7"></div>
-           </div>
-           
-
 
         </div>
-    </header>
-    <div class="main">
-        <div class="child1">
-            <h1>I AM CREATIVE</h1>
-           <h2> HI GUYS,I AM LANDING PAGE</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur, dolorem laborum laboriosam itaque natus amet eaque obcaecati cupiditate at temporibus sed voluptatibus ut perferendis quis atque quidem quaerat esse.</p>
-        </div>
-    </div>
-    <!-- <div class="child2">
-        <div class="cc1">
-            <h3 style="color: black;">Lets Colaborate And Make Wonders Guys!</h3>  
-        </div>
-        <div class="cc2">
-           <h3 style="color: black;">Help Me</h3> 
-        </div>
-        <div class="cc3">
-            <h3 style="color: black;">Share Thoughts</h3>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
 
+            </ul>
+        </nav>
+      </header>
+
+      <div id="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+      <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Radhika </span></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam blanditiis velit, qui aliquam libero excepturi, aut eveniet perferendis quisquam obcaecati molestiae? Animi ex culpa temporibus voluptate! Facilis eos quam nobis.</p>
+        <a href="#about"><button class="btn">about me <i class="fa fa-user"></i></button>
+        
+        
+        </a>  
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading"><span>About </span> me </h1>
+        <div class="row">
+            <div class="info">
+                <h3><span> Name : </span> Radhika </h3>
+                <h3><span> Age : </span> 20 </h3> 
+                <h3><span> Qualification : </span> Btech </h3>
+                <h3><span> Post : </span> Front-End Developer </h3>
+                <h3><span> Language : </span> English </h3>
+                <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>100+</span>
+                    <h3>Project Completed</h3>
+                </div>
+                <div class="box">
+                    <span>400+</span>
+                    <h3>Happy Clents</h3>
+                </div>
+                <div class="box">
+                    <span>10+</span>
+                    <h3>Awards Won</h3>
+                </div>
+
+            </div>
         </div>
-    </div> -->
-    <footer>
-       <p style="font-size: larger;">Contact Us through <a href="#">LinkedIn</a></p> 
-    </footer>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading"> My <span> Education</span> </h1>
+        <div class="box-container"> 
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem quod iste aspernatur minima necessitatibus, doloremque vitae minus eveniet in delectus maiores iusto iure doloribus voluptas reprehenderit quaerat omnis? Repudiandae!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem quod iste aspernatur minima necessitatibus, doloremque vitae minus eveniet in delectus maiores iusto iure doloribus voluptas reprehenderit quaerat omnis? Repudiandae!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem quod iste aspernatur minima necessitatibus, doloremque vitae minus eveniet in delectus maiores iusto iure doloribus voluptas reprehenderit quaerat omnis? Repudiandae!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem quod iste aspernatur minima necessitatibus, doloremque vitae minus eveniet in delectus maiores iusto iure doloribus voluptas reprehenderit quaerat omnis? Repudiandae!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2023</span>
+                <h3>Front-End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem quod iste aspernatur minima necessitatibus, doloremque vitae minus eveniet in delectus maiores iusto iure doloribus voluptas reprehenderit quaerat omnis? Repudiandae!</p>
+            </div>
+        </div>
+    </section>
+     
+
+      <section class="portfolio" id="portfolio">
+        <h1 class="heading">My <span>Portfolio </span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="2.jpeg" alt="">
+            </div>
+            <div class="box">
+                <img src="3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="6.jpg" alt="">
+            </div>
+            
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact </span> me </h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Contact Info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> maddikatlaradhika@gmail.com </h3>
+                    <h3><i class="fas fa-phone"></i> +91 6301592616 </h3>
+                    <h3><i class="fas fa-phone"></i> +91 9701751049 </h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Kurnool,Andhra Pradesh,India - 5181010 </h3>
+                    
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i></button>
+
+            </form>
+        </div>
+      </section>
+
+      <a href="#home" class="top">
+        <img src="12.jpg" alt="">
+      </a>
+
+
+      
 </body>
 </html>
